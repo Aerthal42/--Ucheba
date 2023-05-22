@@ -1,0 +1,41 @@
+body {
+    background: #1abc9c; 
+    font-family: Tahoma, Arial, sans-serif; 
+    color: #333;
+}
+table {
+    border-collapse: collapse;
+}
+p, h4 {
+    font-size: 20px; 
+    margin-bottom: 0;
+}
+h4 {
+    font-size: 14px; 
+}
+ul, ol {
+    margin: 0;
+}
+table tr td {
+    padding: 5px;
+}
+table {
+	width: 100%;
+    border: solid;
+}
+
+img {
+	height: 30px;
+	width: auto;
+}
+
+h1 {
+    font-family: "serif";
+}
+h1 {
+    font-size: 18px;
+}
+.pick {
+    width: 30px;
+    height: 30px;
+}
