@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="{% static 'article.css' %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Архив статей</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="post-title">{{ post.title }}</h2>
+        <div class="article-info">
+        <div class="article-author">{{ post.author.username }}</div>
+        <div class="article-created-date">{{ post.created_date }}</div>
+        </div>
+        <p class="article-text">{{ post.get_excerpt }}</p>
+        </div>
+    </div>    
+</body>
+</html>
